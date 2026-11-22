@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: resumelens
+    runtime: python
+    plan: free
+    buildCommand: >-
+      python -m pip install -r backend/requirements.txt &&
+      cd frontend && npm ci --include=dev && RESUMELENS_STATIC_EXPORT=1 npm run build
+    startCommand: python -m uvicorn app.site:app --app-dir backend --host 0.0.0.0 --port $PORT --forwarded-allow-ips '*'
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.14"
+      - key: NODE_VERSION
+        value: "22"
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false

@@ -4,6 +4,7 @@ import type { NextConfig } from "next";
 // The browser calls /api/*; Next forwards it to FastAPI. No CORS setup needed,
 // and the backend URL can be changed with BACKEND_URL.
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://127.0.0.1:8000";
+const exportForRender = process.env.RESUMELENS_STATIC_EXPORT === "1";
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(__dirname),
@@ -12,9 +13,13 @@ const nextConfig: NextConfig = {
   devIndicators: false,
   // Model calls (plus one retry) can take a while; the default proxy timeout is 30s.
   experimental: { proxyTimeout: 180_000 },
-  async rewrites() {
-    return [{ source: "/api/:path*", destination: `${BACKEND_URL}/:path*` }];
-  },
+  ...(exportForRender
+    ? { output: "export", trailingSlash: true }
+    : {
+        async rewrites() {
+          return [{ source: "/api/:path*", destination: `${BACKEND_URL}/:path*` }];
+        },
+      }),
 };
 
 export default nextConfig;

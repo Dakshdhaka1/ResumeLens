@@ -21,6 +21,7 @@ The core of the project is **prompt engineering and evaluation**. The web app is
 
 ## Contents
 - [Quick start](#quick-start)
+- [Deploy to Render](#deploy-to-render)
 - [Project structure](#project-structure)
 - [The rubric](#the-rubric)
 - [Prompt versions](#prompt-versions)
@@ -90,6 +91,16 @@ Mock answers are not real model output and are never mixed into the real eval re
 | `RESUMELENS_MOCK` | `0` | `1` = offline mock model |
 
 ---
+
+## Deploy to Render
+
+[Deploy ResumeLens to Render](https://render.com/deploy?repo=https://github.com/Dakshdhaka1/ResumeLens)
+
+1. Open the deploy link and select your Render workspace. The Blueprint creates one free web service for the frontend and backend.
+2. Enter `GEMINI_API_KEY` for Gemini and `GROQ_API_KEY` for GPT-OSS. The Analyze and Compare screens offer both models. If you also use Claude through the API, add `ANTHROPIC_API_KEY` in the service's **Environment** settings.
+3. Deploy the Blueprint. Once the service is **Live**, open its public URL. On **Analyze**, load a sample and run it with each provider you configured. On **Compare**, run the same sample with both models.
+
+The build runs from the repository root so FastAPI can read the prompts, sample resumes and evaluation CSV. The service exposes the UI at `/`, the health check at `/api/health`, and the API docs at `/api/docs`. The health check reports which keys are configured. Running an analysis verifies provider access.
 
 ## Project structure
 
