@@ -1,0 +1,20 @@
+Machine Learning Intern - Applied AI Team
+
+Help us build and ship ML models for document understanding.
+
+You will
+- Train and evaluate deep learning models in PyTorch
+- Run experiments, track metrics and write up results
+- Help deploy models behind APIs
+
+Requirements
+- Python, NumPy, Pandas
+- Solid ML fundamentals (classification, evaluation metrics, overfitting)
+- Deep learning with PyTorch (TensorFlow acceptable)
+- Experience with NLP or computer vision projects
+- Git
+
+Bonus
+- Hugging Face Transformers
+- Docker
+- Experience deploying a model (FastAPI / Flask)

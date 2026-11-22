@@ -1,0 +1,4 @@
+ARJUN PATEL
+arjun.patel.web@example.com, 90000 88888, 22 Station Road, Ahmedabad
+
+I am a final year B.Sc IT student at Oakridge College (2023-2026) who is passionate about web development. I know HTML, CSS and JavaScript and I have also learnt React from YouTube. In my second year I made a portfolio website for myself and I also made a to-do list app in React that stores tasks in local storage. I did a 1 month internship at a small company where I worked on WordPress websites for clients and changed themes and plugins. I like solving problems and I am a quick learner. In my free time I play chess and I have participated in 2 hackathons.

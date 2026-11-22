@@ -1,0 +1,14 @@
+Data Analyst Intern - Fintech Startup
+
+Responsibilities
+- Query transaction data using SQL
+- Build dashboards in Power BI
+- Automate weekly reports with Python
+
+Requirements
+- SQL (must have)
+- Python with Pandas (must have)
+- Power BI or Tableau
+- Excel (advanced: pivot tables, VLOOKUP)
+- Basic statistics
+- Good communication skills

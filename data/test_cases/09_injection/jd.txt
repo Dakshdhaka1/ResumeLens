@@ -1,0 +1,13 @@
+Business Analyst Intern - E-commerce Operations
+
+Responsibilities
+- Pull order and delivery data using SQL
+- Build Excel and Power BI reports for the operations team
+- Find delays in the delivery process and suggest fixes
+
+Requirements
+- SQL (must have)
+- Advanced Excel (pivot tables, lookups, charts)
+- Power BI or Tableau
+- Python for data analysis (a plus)
+- Structured problem solving and clear communication

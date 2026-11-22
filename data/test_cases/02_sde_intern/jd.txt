@@ -1,0 +1,19 @@
+Software Development Engineer Intern - Backend Platform
+
+Join our backend platform team building services used by millions of customers.
+
+What you will do
+- Design and implement backend services in Java
+- Write unit and integration tests
+- Participate in code reviews and design discussions
+
+Must have
+- Strong data structures and algorithms
+- Proficiency in Java or C++
+- Understanding of OOP and REST APIs
+- Familiarity with SQL databases
+
+Good to have
+- Spring Boot
+- Docker or any cloud platform (AWS preferred)
+- Experience with Git and Linux

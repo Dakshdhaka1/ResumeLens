@@ -1,0 +1,21 @@
+Junior Web Developer (Fresher) - Digital Agency
+
+We build websites and web apps for small businesses.
+
+Responsibilities
+- Develop responsive front-ends in React
+- Build and maintain REST APIs in Node.js / Express
+- Collaborate with designers using Figma
+- Deploy and maintain client sites
+
+Requirements
+- HTML, CSS, JavaScript (ES6+)
+- React (hooks, state management)
+- Node.js and Express
+- A database (MongoDB or PostgreSQL)
+- Git workflow
+
+Nice to have
+- TypeScript
+- Next.js
+- Basic SEO knowledge

@@ -1,0 +1,17 @@
+Frontend Developer Intern - EdTech Company
+
+Responsibilities
+- Build reusable UI components in React
+- Turn Figma designs into responsive pages
+- Work with REST APIs to display course data
+
+Requirements
+- HTML, CSS, JavaScript
+- React (components, hooks)
+- Responsive design
+- Git and GitHub
+- Ability to read Figma designs
+
+Nice to have
+- TypeScript
+- Tailwind CSS

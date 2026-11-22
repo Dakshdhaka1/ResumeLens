@@ -1,0 +1,26 @@
+ANANYA RAO
+ananya.rao@example.com | +91 90000 11111 | linkedin.com/in/ananya-rao-demo
+
+EDUCATION
+B.Tech, Computer Science, Sunrise Institute of Technology, 2022-2026. CGPA 8.4
+
+SKILLS
+Python, Pandas, Excel, Matplotlib, Git
+
+PROJECTS
+Cricket Stats Explorer
+- Made python script to collect IPL match data from public CSV files
+- Did analysis of batting averages using pandas
+- Created 6 charts in Matplotlib comparing team performance across 5 seasons
+
+College Fest Budget Tracker
+- Worked on excel sheet for fest budget
+- Helped treasurer track expenses of 40 student volunteers
+
+EXPERIENCE
+Teaching Assistant, Intro to Programming (Python), Jan 2025 - May 2025
+- Helped students with doubts in lab sessions
+- Graded weekly assignments for 60 students
+
+ACHIEVEMENTS
+- 2nd place, inter-college data quiz 2024

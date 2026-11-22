@@ -1,0 +1,30 @@
+MEERA KRISHNAN
+meera.k@example.com | +91 90000 77777 | github.com/meera-k-demo | linkedin.com/in/meera-k-demo
+
+EDUCATION
+B.Tech, Computer Science, Northfield Institute of Technology, 2022-2026. CGPA 9.2
+
+SKILLS
+Languages: Python, Go, SQL
+Backend: FastAPI, Django, REST APIs, gRPC
+Data: PostgreSQL, Redis, Kafka
+Cloud/DevOps: Docker, Kubernetes, AWS (EC2, S3, Lambda), GitHub Actions CI/CD
+Testing: pytest
+
+EXPERIENCE
+Backend Engineering Intern, Cloudnest Systems (fictional), May 2025 - Aug 2025
+- Built a FastAPI service for invoice generation that handled 1,200 requests per minute in load tests
+- Reduced p95 latency of the order lookup API from 420 ms to 180 ms by adding Redis caching
+- Containerised 3 services with Docker and deployed them to Kubernetes on AWS
+- Wrote pytest suites that raised coverage of the billing module from 54% to 86%
+
+PROJECTS
+Event Ticketing Platform (Go, PostgreSQL, Kafka)
+- Designed a ticket-booking backend in Go that prevents double booking using PostgreSQL row locks
+- Streamed booking events through Kafka to a separate notification service
+
+CI/CD Template for Student Clubs (GitHub Actions, Docker)
+- Created a reusable GitHub Actions pipeline now used by 5 college club repositories
+
+ACHIEVEMENTS
+- Winner, inter-college hackathon 2024 (backend track)

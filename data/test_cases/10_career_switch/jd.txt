@@ -1,0 +1,14 @@
+Product Analyst Intern - Mobility App
+
+Responsibilities
+- Analyse ride and user data to find drop-off points in the booking funnel
+- Write SQL queries and build dashboards in Tableau
+- Run and analyse A/B tests with the product team
+
+Requirements
+- SQL (must have)
+- Excel
+- Python or R for analysis
+- Tableau or Power BI
+- Statistics (hypothesis testing, A/B testing)
+- Curiosity about product and user behaviour

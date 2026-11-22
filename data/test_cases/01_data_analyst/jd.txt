@@ -1,0 +1,18 @@
+Data Analyst Intern - Retail Analytics Team (6 months)
+
+We are looking for a curious Data Analyst Intern to help our merchandising team understand sales trends.
+
+Responsibilities
+- Write SQL queries to pull and clean sales data from our warehouse
+- Build weekly dashboards in Tableau or Power BI for store managers
+- Analyse promotions and present findings to non-technical stakeholders
+
+Requirements
+- Strong SQL (joins, aggregations, window functions) - must have
+- Excel (pivot tables, lookups) - must have
+- Python with Pandas for data cleaning
+- Experience with a visualisation tool (Tableau or Power BI)
+- Clear written and verbal communication
+
+Nice to have
+- Basic statistics (A/B testing, regression)

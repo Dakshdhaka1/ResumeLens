@@ -1,0 +1,26 @@
+ROHAN DAS
+rohan.das.ml@example.com | (+91) 90000 44444 | linkedin.com/in/rohan-das-demo | github.com/rohan-ml-demo
+
+EDUCATION
+B.Tech, Electronics and Communication, Hillcrest University, 2022-2026. CGPA 8.1
+
+SKILLS
+Python, NumPy, Pandas, Scikit-learn, TensorFlow, Keras, OpenCV, SQL, Git
+
+PROJECTS
+Plant Disease Classifier
+- Trained a CNN in TensorFlow on a public leaf image dataset with 38 classes
+- Reached 91% validation accuracy using data augmentation
+- Worked on a simple web demo
+
+Customer Churn Prediction
+- Did feature engineering on a telecom churn dataset
+- Compared logistic regression, random forest and XGBoost; XGBoost gave the best F1 of 0.78
+
+Traffic Sign Detection (course project)
+- Used OpenCV for image preprocessing
+- Helped teammates with model training
+
+EXPERIENCE
+Research Intern, University Signal Processing Lab, Jun 2024 - Aug 2024
+- Worked on noise removal from audio samples

@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+/* ResumeLens design tokens. See ../DESIGN.md. Never use raw hex in components. */
+:root {
+  --paper: #f5f1e8;
+  --paper-2: #ede7da;
+  --card: #fbf8f2;
+  --ink: #14161a;
+  --ink-2: #3a3b3f;
+  --muted: #5c5a55;
+  --rule: #d9d1c0;
+  --accent: #ff4f1f;
+  --accent-ink: #b8330b;
+  --on-accent: #14161a;
+  --blob-2: #ffb37a;
+
+  --high-fg: #9e2318;  --high-bg: #f4dad3;
+  --med-fg: #7a5200;   --med-bg: #f3e4c0;
+  --low-fg: #2d6236;   --low-bg: #dce9d6;
+
+  --series-gemini: #e8461e;
+  --series-groq: #1f5fb8;
+  --series-claude: #2e8a57;
+
+  --grain-opacity: 0.05;
+  --grain-blend: multiply;
+  --shadow-lift: 0 18px 40px -24px rgb(20 22 26 / 0.35);
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --paper: #131416;
+  --paper-2: #1a1b1e;
+  --card: #1f2024;
+  --ink: #ede6d6;
+  --ink-2: #c9c2b3;
+  --muted: #a39d90;
+  --rule: #33353a;
+  --accent: #ff6a3d;
+  --accent-ink: #ff8a63;
+  --on-accent: #131416;
+  --blob-2: #b5562a;
+
+  --high-fg: #ff9c8c;  --high-bg: #3a1d1a;
+  --med-fg: #e9bc62;   --med-bg: #332918;
+  --low-fg: #93cba0;   --low-bg: #1c2d21;
+
+  --series-gemini: #e85a2a;
+  --series-groq: #4a86e0;
+  --series-claude: #3fa36c;
+
+  --grain-opacity: 0.035;
+  --grain-blend: soft-light;
+  --shadow-lift: 0 18px 40px -20px rgb(0 0 0 / 0.7);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #131416;
+    --paper-2: #1a1b1e;
+    --card: #1f2024;
+    --ink: #ede6d6;
+    --ink-2: #c9c2b3;
+    --muted: #a39d90;
+    --rule: #33353a;
+    --accent: #ff6a3d;
+    --accent-ink: #ff8a63;
+    --on-accent: #131416;
+    --blob-2: #b5562a;
+    --high-fg: #ff9c8c;  --high-bg: #3a1d1a;
+    --med-fg: #e9bc62;   --med-bg: #332918;
+    --low-fg: #93cba0;   --low-bg: #1c2d21;
+    --series-gemini: #e85a2a;
+    --series-groq: #4a86e0;
+    --series-claude: #3fa36c;
+    --grain-opacity: 0.035;
+    --grain-blend: soft-light;
+    --shadow-lift: 0 18px 40px -20px rgb(0 0 0 / 0.7);
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-on-accent: var(--on-accent);
+  --color-high-fg: var(--high-fg);
+  --color-high-bg: var(--high-bg);
+  --color-med-fg: var(--med-fg);
+  --color-med-bg: var(--med-bg);
+  --color-low-fg: var(--low-fg);
+  --color-low-bg: var(--low-bg);
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-geist), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --ease-out-lens: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-lift: var(--shadow-lift);
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+/* Visible, consistent focus ring on every interactive element. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+}
+
+.folio {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Ruled-paper pattern used behind the hero. */
+.ruled {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 27px,
+    color-mix(in oklab, var(--rule) 55%, transparent) 27px,
+    color-mix(in oklab, var(--rule) 55%, transparent) 28px
+  );
+}
+
+/* Thin, quiet scrollbars inside text areas and code. */
+.scroll-quiet {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

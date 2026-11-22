@@ -1,0 +1,30 @@
+KARAN MEHTA
+karan.m.dev@example.com | 98765 00002 | github.com/karan-demo
+
+EDUCATION
+B.E. Information Technology, Lakeview College of Engineering, 2022-2026. CGPA 8.9
+
+TECHNICAL SKILLS
+Languages: Java, C++, Python
+Frameworks: Spring Boot, JUnit
+Tools: Git, Linux, MySQL, Postman
+Core: Data Structures and Algorithms, OOP, DBMS, Operating Systems
+
+PROJECTS
+Library Management REST API (Java, Spring Boot, MySQL)
+- Built REST endpoints for book issue and return with JWT login
+- Wrote 35 JUnit tests covering the service layer
+- Worked on database schema
+
+Online Judge Lite (C++)
+- Made a small online judge that compiles and runs C++ code against test cases
+- Added time limit checks for submissions
+
+EXPERIENCE
+Summer Intern, Brightpath Software (fictional), May 2025 - Jul 2025
+- Fixed bugs in an internal Java billing tool
+- Was part of daily standups
+
+ACHIEVEMENTS
+- Solved 450+ problems on competitive programming sites
+- Codeforces rating 1650

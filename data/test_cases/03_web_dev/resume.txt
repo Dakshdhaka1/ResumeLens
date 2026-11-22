@@ -1,0 +1,27 @@
+SNEHA IYER
+Email: sneha.iyer@example.com   Phone: +91-90000-33333
+Address: 14 Lotus Lane, Green Park, Pune 411001
+Portfolio: github.com/sneha-builds-demo
+
+EDUCATION
+BCA, Riverside College, 2023-2026. 82%
+
+SKILLS
+HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Tailwind, Git, Figma
+
+PROJECTS
+Recipe Share (React, Node.js, Express, MongoDB)
+- Built a recipe sharing site where users can post, like and save recipes
+- Designed responsive layouts with Tailwind that work on mobile
+- Made login system
+
+Campus Lost and Found (React, Firebase)
+- Created a lost-and-found board used by students of my hostel
+- Added image upload for item photos
+
+FREELANCE
+- Made a website for a local bakery
+- Fixed CSS issues on a friend's portfolio site
+
+CERTIFICATIONS
+- Responsive Web Design (online course)

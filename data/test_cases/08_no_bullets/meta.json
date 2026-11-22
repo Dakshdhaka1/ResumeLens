@@ -1,0 +1,1 @@
+{"title": "Resume with no bullets", "role": "Frontend Developer Intern", "expected_band": [25, 55], "is_injection": false, "notes": "Single paragraph, no sections. Model must rewrite sentences instead of bullets; formatting should score low."}

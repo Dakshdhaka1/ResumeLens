@@ -1,0 +1,16 @@
+Backend Engineer - Graduate Role (2026 batch)
+
+Build reliable, scalable APIs for our payments platform.
+
+Responsibilities
+- Design and build REST and gRPC services in Python or Go
+- Own services end to end: testing, CI/CD, deployment on Kubernetes
+- Improve performance and reliability of high-traffic APIs
+
+Requirements
+- Python or Go
+- REST API design; gRPC a plus
+- SQL databases (PostgreSQL preferred)
+- Caching and messaging (Redis, Kafka)
+- Docker, Kubernetes, and a cloud platform (AWS preferred)
+- Automated testing (pytest or similar) and CI/CD

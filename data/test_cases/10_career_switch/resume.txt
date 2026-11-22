@@ -1,0 +1,25 @@
+TANVI JOSHI
+tanvi.joshi@example.com | +91 90000 10101 | linkedin.com/in/tanvi-joshi-demo
+
+EDUCATION
+B.Tech, Mechanical Engineering, Coastal Institute of Technology, 2022-2026. CGPA 7.9
+
+SKILLS
+SolidWorks, AutoCAD, MATLAB, Excel, Python (beginner), SQL (beginner, online course)
+
+PROJECTS
+Go-Kart Design Team (college team of 18)
+- Worked on chassis design in SolidWorks
+- Did cost analysis of parts in Excel for a budget of 2 lakh rupees
+
+Fuel Efficiency Analysis (course project)
+- Used MATLAB to analyse fuel consumption data from 50 test runs
+- Made graphs for the final report
+
+EXPERIENCE
+Plant Intern, Precision Gears Ltd (fictional), Jun 2025 - Jul 2025
+- Recorded machine downtime data on the shop floor
+- Made a daily Excel report of downtime for the shift supervisor
+
+CERTIFICATIONS
+- SQL for Beginners (online course, 2025)
